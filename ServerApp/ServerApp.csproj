@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+<!-- La solución recomendada es modificar tu proyecto para que en lugar de usar 
+explícitamente ubuntu.22.04-x64 uses linux-x64 como RuntimeIdentifier. 
+Para hacerlo, agrega o cambia en tu archivo .csproj la siguiente propiedad dentro de un <PropertyGroup>:
+
+xml: 
+  <PropertyGroup>
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+  </PropertyGroup> -->
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9" />
+  </ItemGroup>
+
+</Project>
