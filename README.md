@@ -1,4 +1,4 @@
-Resumen del proceso y cambios realizados para que Backend y Frontend se comuniquen de forma funcional y optimizada:
+Reflexión y Resumen del proceso y cambios realizados para que Backend y Frontend se comuniquen de forma funcional y optimizada:
 
 Situación inicial
 
